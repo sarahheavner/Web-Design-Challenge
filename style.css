@@ -48,8 +48,12 @@ p{
 /* navbar */
 .navbar{
     background-color: white;
+    max-height: 40px;
+
 }
 
 .navbar-brand{
-
+    background-color: #c3d5d5;
+    font-weight: bold;
 }
+
