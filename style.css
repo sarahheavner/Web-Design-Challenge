@@ -1,20 +1,33 @@
 /* set background color */
 body{
-    background-color:  #e6f2ff 
-
+    background-color:  #e9e9fb;
 }
-
 
 /* h1 heading tag */
 h1{
     font-size: 30px;
-    margin-top: 15px;
-    color: #3399ff;
+    text-align: center;
+    font-weight: bold;
+    color: #428cd7;
 }
 
 /* p heading tag */
 p{
-    font-size: 15px;
-    margin-top: 20 px;
+    font-size: 18px;
+    margin-top: 30px;
     color: #003366;
+}
+
+.box{
+    background-color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 5px 20px;
+}
+
+.title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    color: #428cd7;
 }
