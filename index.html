@@ -24,10 +24,10 @@
             Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+            <a class="dropdown-item" href="temperature.html">Temperature</a>
             <a class="dropdown-item" href="humidity.html">Humidity</a>            
             <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-            <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+            <a class="dropdown-item" href="windspeed.html">Windspeed</a>
             </div>
         </li>
         <li class="nav-item">
@@ -46,9 +46,40 @@
         <div class="box">
           <h1>Summary: Latitude vs. X</h1>
           <hr>
-          <img src="assets/TempVsLatitude.png" alt="Max Temperature Graph">
+          <img src="assets/TempVsLatitude.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
           <p>The purpose of this project is to analyze how weather changes closer to the equator. The weather data was first pulled from the OpenWeatherMap API to compile a dataset including over 500 randomly selected cities.  </p>
           <p>After assembling this dataset, we used Matplotlib to plot various aspects of the weather versus latitude. We specifically looked at maximum temperature(F), humidity(%), cloudiness(%), and windspeed(mph). The dataset, visualizations, and explanations of trends and correlation are provided on this site. </p>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-12">
+        <div class="box">
+          <h3 class="title">Visualizations</h3>
+          <hr>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+                <a href="temperature.html">
+                  <img src="assets/TempVsLatitude.png" alt="Max Temperature Scatterplot">
+                </a>
+                <a href="humidity.html">
+                  <img src="assets/HumidityVsLatitude.png" alt="Humidity Scatterplot">
+                </a>
+                <a href="cloudiness.html">
+                  <img src="assets/CloudinessVsLatitude.png" alt="Cloudiness Scatterplot">
+                </a>
+                <a href="windspeed.html">
+                  <img src="assets/WindSpeedVsLatitude.png" alt="Windspeed Scatterplot">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

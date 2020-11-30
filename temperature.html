@@ -24,10 +24,10 @@
             Plots
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" href="temperature.html">Max Temperature</a>
+            <a class="dropdown-item" href="temperature.html">Temperature</a>
             <a class="dropdown-item" href="humidity.html">Humidity</a>            
             <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-            <a class="dropdown-item" href="windspeed.html">Wind Speed</a>
+            <a class="dropdown-item" href="windspeed.html">Windspeed</a>
             </div>
         </li>
         <li class="nav-item">
@@ -43,13 +43,42 @@
   
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-12">
-        <div class="box">
-        <h1>Max Temperature (F) vs. Latitude</h1>
-        <hr>
-        <img src="assets/TempVsLatitude.png" alt="Max Temperature Scatterplot">
-        <p>As one would expect, the temperature increases closer to the equator (0 degrees latitude). At this time of the year the highest temperatures occur in the southern hemisphere, specifically between 0 and -40 degrees latitude. This could be due to the tilt of the earth when the data was obtained. One could also safely predict that if new data is pulled in six months that the northen hemisphere would show warmer temperatures than the southern hemisphere. </p>
+        <div class="col-lg-8 col-md-12">
+            <div class="box">
+                <h1>Max Temperature (F) vs. Latitude</h1>
+                <hr>
+                <img src="assets/TempVsLatitude.png" alt="Max Temperature Scatterplot">
+                <p>As one would expect, the temperature increases closer to the equator (0 degrees latitude). At this time of the year the highest temperatures occur in the southern hemisphere, specifically between 0 and -40 degrees latitude. This could be due to the tilt of the earth when the data was obtained. One could also safely predict that if new data is pulled in six months that the northen hemisphere would show warmer temperatures than the southern hemisphere. </p>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-12">
+            <div class="box">
+              <h3 class="title">Visualizations</h3>
+              <hr>
     
+              <div class="container">
+                <div class="row">
+                  <div class="col-6">
+                    <a href="temperature.html">
+                      <img src="assets/TempVsLatitude.png" alt="Max Temperature Scatterplot">
+                    </a>
+                    <a href="humidity.html">
+                      <img src="assets/HumidityVsLatitude.png" alt="Humidity Scatterplot">
+                    </a>
+                    <a href="cloudiness.html">
+                      <img src="assets/CloudinessVsLatitude.png" alt="Cloudiness Scatterplot">
+                    </a>
+                    <a href="windspeed.html">
+                      <img src="assets/WindSpeedVsLatitude.png" alt="Windspeed Scatterplot">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
